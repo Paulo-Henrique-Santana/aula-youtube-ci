@@ -22,9 +22,8 @@ jobs:
         uses: docker/build-push-action@1ca370b3a9802c92e886402e0dd88098a2533b12
         with: 
           context: .
-          file: .
           push: true
-          tags: 
+          tags: |
             paulohenriquesantana/aula_youtube:v1
             paulohenriquesantana/aula_youtube:latest
             
