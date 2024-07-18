@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-  watch: [main]
+    branches: [main]
 
 jobs:
   CI:
